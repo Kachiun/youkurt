@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<link rel="stylesheet" href="youkut.css">
+</head>
+
+<body>
+    <form action="enviar-email.php" class="formulario" method="post"> 
+        <p> Cadastre-se! É grátis.</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome de Usuário:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome de Usuário" required>
+        </div>
+        
+	<div class="field">
+		 <label for="sexo"> Seu sexo:</label>
+<select name="sexo">
+<option value="Feminino">Feminino</option>
+<option value="Masculino">Masculino</option>
+<option value="Outro">Outro</option>
+</select>
+		
+	</div>
+	
+		
+		<div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+		<div class="field">
+            <label for="telefone">Data</label>
+            <input type="date" id="date" name="date" placeholder="Sua data de aniversário">
+        </div>
+		
+		
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+       
+        <div class="field">
+            <label for="mensagem">Sua Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+
+	
+	
+	</form>
+
+
+</body>
+</html>
